@@ -36,6 +36,10 @@ array_push($ratersaccount,"theprincess01");
 array_push($ratersaccount,"theprincess02");
 array_push($ratersaccount,"theprincess03");
 array_push($ratersaccount,"theprincess04");
+array_push($ratersaccount,"theprincess05");
+array_push($ratersaccount,"theprincess06");
+array_push($ratersaccount,"theprincess07");
+
 	
 array_push($ratersaccount,"lykapro002");
 array_push($ratersaccount,"lykapro003");
@@ -538,10 +542,10 @@ return;
            	"deviceModel":"$DevName",
            	"deviceName":"$DevName",
            	"deviceOs":"Android",
-           	"isEmulator":false,          						       "notificationToken":"eFEXEC5pTAeXLu7JjIlpNX:APA91bF8I2ZGs8wUNDjpw5lSnzrz8fB652HYMxWBdTGtFRSUaBEd0pHZQvWXAd00ESKVUO_VtYieRQxtfEU7f3RUIHEs5zXGZSVqk5PfbzjZTJQcue0vHYRiEobXHk8JUlTa0nmPCdgR",
-			"osVersion":"11"
-         				},
-			"recipientId":' . $recID . '}';
+           	"isEmulator":false,          						       
+		"notificationToken":"eFEXEC5pTAeXLu7JjIlpNX:APA91bF8I2ZGs8wUNDjpw5lSnzrz8fB652HYMxWBdTGtFRSUaBEd0pHZQvWXAd00ESKVUO_VtYieRQxtfEU7f3RUIHEs5zXGZSVqk5PfbzjZTJQcue0vHYRiEobXHk8JUlTa0nmPCdgR",
+		"osVersion":"11" },
+		"recipientId":' . $recID . '}';
 				
 			curl_setopt($curlGEMS, CURLOPT_POSTFIELDS, $balanceGEM);
 			$response_GEMbalance = curl_exec($curlGEMS);
@@ -1135,10 +1139,10 @@ function addpostmomentMenu($posttype, $ratersaccount, $mainaccounts)
 {
     @system("clear");
 
-    $Cyan     = "\033[0;36m" ;        # Cyan
+    $Cyan     = "\033[0;36m" ;       # Cyan
     $White    = "\033[0;37m" ;       # White
     $Green    = "\033[0;32m" ;       # Green
-    $Yellow   = "\033[0;33m" ;      # Yellow
+    $Yellow   = "\033[0;33m" ;       # Yellow
 
 $ScriptName ="ADD POST/MOMENTS ROUTINE\n* (c) 2022 LYKAPRO dev team *";
 $Web="https://github.com/lykapro/lykapro";
@@ -1194,13 +1198,13 @@ function addpost2account($newaccounts, $posttype, $accounttype)
    //Set font color
    
    // Regular Colors
-   $Black    = "\033[0;30m" ;     //  # Black
-   $CRed     = "\033[0;31m" ;     //  # Red
-   $Green    = "\033[0;32m" ;       # Green
+   $Black    = "\033[0;30m" ;      # Black
+   $CRed     = "\033[0;31m" ;      # Red
+   $Green    = "\033[0;32m" ;      # Green
    $Yellow   = "\033[0;33m" ;      # Yellow
-   $Blue     = "\033[0;34m" ;        # Blue
-   $Cyan     = "\033[0;36m" ;        # Cyan
-   $White    = "\033[0;37m" ;       # White
+   $Blue     = "\033[0;34m" ;      # Blue
+   $Cyan     = "\033[0;36m" ;      # Cyan
+   $White    = "\033[0;37m" ;      # White
    
    $ScriptName ="ADD POST/MOMENT ROUTINE\n* (c) 2022 LYKAPRO dev team *";
    $Web="https://github.com/lykapro/lykapro";
@@ -1577,8 +1581,8 @@ function postmoments($currentUser, $bearer, $posttype, $accounttype) {
                     "isSharedLink":false,
                     "mediaTags":"[[]]",
                     title:"'.date("l").'",
-                    hashtags:"#LYKA #LYKAGEMS",
-                    content: "https://github.com/lykapro/lykapro"'),
+                    hashtags:"LykaGlobal Lyka vivalasvegas",
+                    content: "#Lyka #LykaGlobal #vivalasvegas"'),
                     $bearer);
 
                 else : 
