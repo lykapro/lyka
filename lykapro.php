@@ -33,12 +33,61 @@ array_push($mainaccounts,"lykapro001");
 
 //these are the raters account
 	
+array_push($ratersaccount,"icarus2022");	
+array_push($ratersaccount,"im100pretty");
+array_push($ratersaccount,"im200pretty");
+array_push($ratersaccount,"im300pretty");
+array_push($ratersaccount,"xianmig2022");
+
 array_push($ratersaccount,"lykapro002");
 array_push($ratersaccount,"lykapro003");
 array_push($ratersaccount,"pretty01lyca");
 array_push($ratersaccount,"pretty02lyca");
+
+array_push($ratersaccount,"max1318569");
+array_push($ratersaccount,"max1603820");
+array_push($ratersaccount,"max1603295");
+array_push($ratersaccount,"max7456929");
+array_push($ratersaccount,"max1318552");
+
+array_push($ratersaccount,"maximum001");
+array_push($ratersaccount,"maximum002");
+array_push($ratersaccount,"maximum003");
+array_push($ratersaccount,"maximum004");
+array_push($ratersaccount,"maximum005");
+
+array_push($ratersaccount,"maximum010");
+array_push($ratersaccount,"maximum011");
+array_push($ratersaccount,"maximum012");
+array_push($ratersaccount,"maximum013");
+array_push($ratersaccount,"max1mum14");
+
+array_push($ratersaccount,"maximum030");
+array_push($ratersaccount,"maximum031");
+array_push($ratersaccount,"maximum032");
+array_push($ratersaccount,"maximum033");
+array_push($ratersaccount,"max1mum34");
+
+//new
+array_push($ratersaccount,"bea3161");
+array_push($ratersaccount,"bea8589");
+array_push($ratersaccount,"bea5058");
+array_push($ratersaccount,"bea8570");
+array_push($ratersaccount,"bea5349");
+
+array_push($ratersaccount,"bea3171");
+array_push($ratersaccount,"rod3183");
+array_push($ratersaccount,"rod3158");
+array_push($ratersaccount,"rod6791");
+array_push($ratersaccount,"rod8970");
+
+array_push($ratersaccount,"rod3164");
+array_push($ratersaccount,"rod8559");
 array_push($ratersaccount,"den8698");
 array_push($ratersaccount,"den5332");  
+
+array_push($ratersaccount,"zero9691255118");
+array_push($ratersaccount,"ninesixnine1690606");
     
 //define title       
 $ScriptName ="*** LYKAPRO Main Menu ***\n* (c) 2022 LYKAPRO dev team *";
