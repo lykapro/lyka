@@ -32,14 +32,6 @@ array_push($mainaccounts,"bbeeaa02");
 array_push($mainaccounts,"lykapro001");
 
 //these are the raters account
-array_push($ratersaccount,"theprincess01");
-array_push($ratersaccount,"theprincess02");
-array_push($ratersaccount,"theprincess03");
-array_push($ratersaccount,"theprincess04");
-array_push($ratersaccount,"theprincess05");
-array_push($ratersaccount,"theprincess06");
-array_push($ratersaccount,"theprincess07");
-
 	
 array_push($ratersaccount,"lykapro002");
 array_push($ratersaccount,"lykapro003");
